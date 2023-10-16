@@ -14,12 +14,7 @@
       <div class="col-8 m-auto border rounded mb-4 p-2 d-flex justify-content-evenly align-items-center">
 
 
-        <div class="">
-          <h5>{{ $train->corporate}}</h5>
-          <h6>vi augura buon viaggio</h6>
-          
-         
-        </div>
+       
         
         
           <div class="border rounded p-3 mb-2 text-start">
@@ -35,11 +30,20 @@
             <p>Orario: {{ $train->end_time}} </p>
           </div>
         
+
+          <div class="">
+            <h6>Vagone: {{ $train->n_wagon}} </h6>
+            <p>Posto 14B</p>
+          </div>
+
+          <div class="">
+            <h5>{{ $train->corporate}}</h5>
+            <h6>vi augura buon viaggio</h6>
+            
+           
+          </div>
         
-        <div class="">
-          <h6>Vagone: {{ $train->n_wagon}} </h6>
-          <p>Posto 14B</p>
-        </div>
+        
 
       
       </div>
